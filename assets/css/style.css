@@ -147,14 +147,14 @@ footer {
 @media screen and (max-width: 640px) {
 
     section {
-        width: 400px;
+        width: 350px;
     }
     #name {
         float: none;
         margin: 0 0 10px 0;
     }
     #myPic {
-        width: 350px;
+        width: 300px;
         height: auto;
     }
     .top {
