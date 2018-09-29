@@ -121,3 +121,52 @@ footer {
     margin-bottom: 0;
     color:oldlace;
 }
+
+@media screen and (max-width: 980px) {
+    section {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    section {
+        width: 675px;
+    }
+    
+    .navLink {
+        float: left;
+        text-decoration: none;
+        padding: 0 15px;
+        position: relative;
+        left: 100px;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    section {
+        width: 400px;
+    }
+    #name {
+        float: none;
+        margin: 0 0 10px 0;
+    }
+    #myPic {
+        width: 350px;
+        height: auto;
+    }
+    .top {
+        width: 100%;
+    }
+    .navLink {
+        float: left;
+        text-decoration: none;
+        padding: 0 15px;
+        position: relative;
+        left: auto;
+        top: 0px;
+    }
+}
+
